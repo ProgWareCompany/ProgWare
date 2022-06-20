@@ -1,0 +1,29 @@
+C:\Users\USUARIO\source\repos\WindowsFormsApp5\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.exe.config
+C:\Users\USUARIO\source\repos\WindowsFormsApp5\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.exe
+C:\Users\USUARIO\source\repos\WindowsFormsApp5\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.pdb
+C:\Users\USUARIO\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csprojAssemblyReference.cache
+C:\Users\USUARIO\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Form1.resources
+C:\Users\USUARIO\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Invitado_ENG.resources
+C:\Users\USUARIO\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Login_ENG.resources
+C:\Users\USUARIO\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Login_ES.resources
+C:\Users\USUARIO\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.invitado_ES.resources
+C:\Users\USUARIO\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Properties.Resources.resources
+C:\Users\USUARIO\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csproj.GenerateResource.cache
+C:\Users\USUARIO\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.exe
+C:\Users\USUARIO\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.pdb
+d:\Users\alumno\Desktop\diseño entrega 1\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.exe.config
+d:\Users\alumno\Desktop\diseño entrega 1\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.exe
+d:\Users\alumno\Desktop\diseño entrega 1\WindowsFormsApp5\bin\Debug\WindowsFormsApp5.pdb
+d:\Users\alumno\Desktop\diseño entrega 1\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csprojAssemblyReference.cache
+d:\Users\alumno\Desktop\diseño entrega 1\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Invitado_ENG.resources
+d:\Users\alumno\Desktop\diseño entrega 1\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Login_ENG.resources
+d:\Users\alumno\Desktop\diseño entrega 1\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Login_ES.resources
+d:\Users\alumno\Desktop\diseño entrega 1\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.invitado_ES.resources
+d:\Users\alumno\Desktop\diseño entrega 1\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Properties.Resources.resources
+d:\Users\alumno\Desktop\diseño entrega 1\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csproj.GenerateResource.cache
+d:\Users\alumno\Desktop\diseño entrega 1\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.csproj.CoreCompileInputs.cache
+d:\Users\alumno\Desktop\diseño entrega 1\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.exe
+d:\Users\alumno\Desktop\diseño entrega 1\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.pdb
+d:\Users\alumno\Desktop\diseño entrega 1\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Inicio.resources
+d:\Users\alumno\Desktop\diseño entrega 1\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Jugador.resources
