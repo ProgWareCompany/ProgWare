@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CBE64311-87F6-415B-B1AB-96A1F91B8970}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SIGDPW</RootNamespace>
+    <AssemblyName>SIGDPW</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Consulta_ENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta_ENG.Designer.cs">
+      <DependentUpon>Consulta_ENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta_ES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta_ES.Designer.cs">
+      <DependentUpon>Consulta_ES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearEquipo_ENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearEquipo_ENG.Designer.cs">
+      <DependentUpon>CrearEquipo_ENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearEquipo_ES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearEquipo_ES.Designer.cs">
+      <DependentUpon>CrearEquipo_ES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearUsuario_ENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearUsuario_ENG.Designer.cs">
+      <DependentUpon>CrearUsuario_ENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearUsuario_ES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearUsuario_ES.Designer.cs">
+      <DependentUpon>CrearUsuario_ES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipo_ENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipo_ENG.Designer.cs">
+      <DependentUpon>Equipo_ENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipo_ES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipo_ES.Designer.cs">
+      <DependentUpon>Equipo_ES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fixture_ENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fixture_ENG.Designer.cs">
+      <DependentUpon>Fixture_ENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fixture_ES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fixture_ES.Designer.cs">
+      <DependentUpon>Fixture_ES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Idioma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Idioma.Designer.cs">
+      <DependentUpon>Idioma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jugador_ENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jugador_ENG.Designer.cs">
+      <DependentUpon>Jugador_ENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jugador_ES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jugador_ES.Designer.cs">
+      <DependentUpon>Jugador_ES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_ENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_ENG.Designer.cs">
+      <DependentUpon>Login_ENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_ES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_ES.Designer.cs">
+      <DependentUpon>Login_ES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdministrativo_ENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdministrativo_ENG.Designer.cs">
+      <DependentUpon>MenuAdministrativo_ENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdministrativo_ES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdministrativo_ES.Designer.cs">
+      <DependentUpon>MenuAdministrativo_ES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuDT_ENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuDT_ENG.Designer.cs">
+      <DependentUpon>MenuDT_ENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuDT_ES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuDT_ES.Designer.cs">
+      <DependentUpon>MenuDT_ES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModCi_ENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModCi_ENG.Designer.cs">
+      <DependentUpon>ModCi_ENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModCi_ES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModCi_ES.Designer.cs">
+      <DependentUpon>ModCi_ES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModJugador_ENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModJugador_ENG.Designer.cs">
+      <DependentUpon>ModJugador_ENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModJugador_ES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModJugador_ES.Designer.cs">
+      <DependentUpon>ModJugador_ES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resultados_ENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resultados_ENG.Designer.cs">
+      <DependentUpon>Resultados_ENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resultados_ES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resultados_ES.Designer.cs">
+      <DependentUpon>Resultados_ES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeleccionFixture_ENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeleccionFixture_ENG.Designer.cs">
+      <DependentUpon>SeleccionFixture_ENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeleccionFixture_ES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeleccionFixture_ES.Designer.cs">
+      <DependentUpon>SeleccionFixture_ES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seleccion_ENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seleccion_ENG.Designer.cs">
+      <DependentUpon>Seleccion_ENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seleccion_ES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seleccion_ES.Designer.cs">
+      <DependentUpon>Seleccion_ES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Temporal_ENG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Temporal_ENG.Designer.cs">
+      <DependentUpon>Temporal_ENG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Temporal_ES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Temporal_ES.Designer.cs">
+      <DependentUpon>Temporal_ES.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Consulta_ENG.resx">
+      <DependentUpon>Consulta_ENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta_ES.resx">
+      <DependentUpon>Consulta_ES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearEquipo_ENG.resx">
+      <DependentUpon>CrearEquipo_ENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearEquipo_ES.resx">
+      <DependentUpon>CrearEquipo_ES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearUsuario_ENG.resx">
+      <DependentUpon>CrearUsuario_ENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearUsuario_ES.resx">
+      <DependentUpon>CrearUsuario_ES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipo_ENG.resx">
+      <DependentUpon>Equipo_ENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipo_ES.resx">
+      <DependentUpon>Equipo_ES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fixture_ENG.resx">
+      <DependentUpon>Fixture_ENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fixture_ES.resx">
+      <DependentUpon>Fixture_ES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Idioma.resx">
+      <DependentUpon>Idioma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jugador_ENG.resx">
+      <DependentUpon>Jugador_ENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jugador_ES.resx">
+      <DependentUpon>Jugador_ES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_ENG.resx">
+      <DependentUpon>Login_ENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_ES.resx">
+      <DependentUpon>Login_ES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdministrativo_ENG.resx">
+      <DependentUpon>MenuAdministrativo_ENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdministrativo_ES.resx">
+      <DependentUpon>MenuAdministrativo_ES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuDT_ENG.resx">
+      <DependentUpon>MenuDT_ENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuDT_ES.resx">
+      <DependentUpon>MenuDT_ES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModCi_ENG.resx">
+      <DependentUpon>ModCi_ENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModCi_ES.resx">
+      <DependentUpon>ModCi_ES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModJugador_ENG.resx">
+      <DependentUpon>ModJugador_ENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModJugador_ES.resx">
+      <DependentUpon>ModJugador_ES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resultados_ENG.resx">
+      <DependentUpon>Resultados_ENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resultados_ES.resx">
+      <DependentUpon>Resultados_ES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeleccionFixture_ENG.resx">
+      <DependentUpon>SeleccionFixture_ENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeleccionFixture_ES.resx">
+      <DependentUpon>SeleccionFixture_ES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seleccion_ENG.resx">
+      <DependentUpon>Seleccion_ENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Seleccion_ES.resx">
+      <DependentUpon>Seleccion_ES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Temporal_ENG.resx">
+      <DependentUpon>Temporal_ENG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Temporal_ES.resx">
+      <DependentUpon>Temporal_ES.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monte_Jon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
